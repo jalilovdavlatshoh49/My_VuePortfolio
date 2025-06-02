@@ -1,0 +1,33 @@
+{
+  "name": "Давлатшоҳ Ҷалилов",
+  "title": "Front-End Developer",
+  "avatar": "/avatar.png",
+  "about": "Ман барномасоз ва веб-разработчик ҳастам. Ба Vue.js ва веб-технологияҳо шавқ дорам. Дар портфолиои ман метавонед лоиҳаҳо, маҳоратҳо ва маълумоти тамосро пайдо кунед.",
+  "skills": [
+    { "name": "HTML5", "icon": "ph ph-html5-logo" },
+    { "name": "CSS3", "icon": "ph ph-css3-logo" },
+    { "name": "JavaScript", "icon": "ph ph-js-logo" },
+    { "name": "Vue.js", "icon": "ph ph-vue-logo" },
+    { "name": "Git", "icon": "ph ph-git-branch" },
+    { "name": "Responsive Design", "icon": "ph ph-device-mobile-camera" }
+  ],
+  "projects": [
+    {
+      "title": "Вебсайти шахсӣ",
+      "description": "Вебсайти шахсӣ бо маълумоти резюме ва контактҳо, сохта бо Vue.js.",
+      "link": "https://github.com/jalilovdavlatshoh49/vue-portfolio",
+      "image": "/project1.png"
+    },
+    {
+      "title": "Todo App",
+      "description": "Барномаи идоракунии вазифаҳо бо Vue ва LocalStorage.",
+      "link": "https://github.com/jalilovdavlatshoh49/todo-vue",
+      "image": "/project2.png"
+    }
+  ],
+  "contacts": [
+    { "type": "Email", "value": "jalilovdavlatshoh49@gmail.com", "icon": "ph ph-envelope", "link": "mailto:jalilovdavlatshoh49@gmail.com" },
+    { "type": "Telegram", "value": "@jalilovdavlatshoh49", "icon": "ph ph-telegram-logo", "link": "https://t.me/jalilovdavlatshoh49" },
+    { "type": "GitHub", "value": "jalilovdavlatshoh49", "icon": "ph ph-github-logo", "link": "https://github.com/jalilovdavlatshoh49" }
+  ]
+}
