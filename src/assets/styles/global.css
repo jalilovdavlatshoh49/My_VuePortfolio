@@ -1,0 +1,83 @@
+/* Импорт шрифтҳои касбӣ */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* Решаҳои Light Mode */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #222;
+  --secondary-color: #555;
+  --card-color: #f9f9f9;
+  --card-shadow: rgba(0, 0, 0, 0.08);
+  --accent-color: #5686e0;
+  --border-radius: 16px;
+  --font-family: 'Inter', sans-serif;
+}
+
+/* Решаҳои Dark Mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #121212;
+    --text-color: #f0f0f0;
+    --secondary-color: #aaaaaa;
+    --card-color: #1e1e1e;
+    --card-shadow: rgba(255, 255, 255, 0.05);
+    --accent-color: #82aaff;
+  }
+}
+
+/* Reset & base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+  line-height: 1.6;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  padding: 0;
+  margin: 0;
+}
+
+/* Контейнер */
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+/* Карточки */
+.card {
+  background: var(--card-color);
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 20px var(--card-shadow);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Заголовки */
+h1, h2, h3 {
+  color: var(--text-color);
+}
+
+/* Для кнопок и интерактивных элементов */
+button, a {
+  font-family: inherit;
+  transition: all 0.3s ease;
+}
+
+/* Responsive (адаптивность) */
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: 16px;
+  }
+}
