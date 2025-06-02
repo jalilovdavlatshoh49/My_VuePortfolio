@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vue App</title>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <style>
+    /* CSS-атро ин ҷо ҷойгир кун */
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <h1>{{ message }}</h1>
+  </div>
+
+  <script>
+    // JavaScript Vue-атро ин ҷо навис
+    const { createApp } = Vue;
+
+    createApp({
+      data() {
+        return {
+          message: 'Салом, ман Vue-ам!'
+        }
+      }
+    }).mount('#app')
+  </script>
+</body>
+</html>
