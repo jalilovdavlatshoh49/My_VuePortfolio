@@ -55,6 +55,6 @@ Google Fonts: Inter
 📦 Установка и запуск
 
 git clone https://github.com/jalilovdavlatshoh49/My_VuePortfolio.git
-cd portfolio-app
+cd My_VuePortfolio
 npm install
 npm run dev
