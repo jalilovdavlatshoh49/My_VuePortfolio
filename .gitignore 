@@ -1,0 +1,23 @@
+# node modules
+node_modules/
+
+# build output
+dist/
+*.log
+
+# system files
+.DS_Store
+Thumbs.db
+
+# vscode settings
+.vscode/
+
+# vercel deployment folder
+.vercel/
+
+# env files
+.env
+.env.*.local
+
+# cache
+.cache/
